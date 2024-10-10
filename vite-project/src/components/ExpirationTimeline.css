@@ -1,0 +1,33 @@
+/* Container styling */
+.expiration-timeline-card {
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.expiration-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Center the stacked circles */
+.progress-circle-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+/* Styling for the individual circles */
+.stacked-circle {
+  transform: rotate(-90deg);  /* Start each circle from the top */
+  transform-origin: center;
+  transition: stroke-dashoffset 0.5s ease;
+}
